@@ -317,6 +317,12 @@
 
 
     <!-- custom js -->
-    <script src="main.js"></script>
+    <!-- <script src="main.js"></script> -->
+    <script>
+        const htmlTheme = document.getElementById('htmlTheme');
+        document.getElementById('moon').addEventListener('click', function(){
+            htmlTheme.classList.toggle('dark');
+        });
+    </script>
 </body>
 </html>
